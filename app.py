@@ -12,15 +12,15 @@ import pandas as pd
 
 
 ########### Define your variables ######
-myheading = "Best Craft Beers in DC"
-mysubheading = "August 2019"
+myheading = "USA Arrest"
+mysubheading = "january 2010 - December 2010"
 tabtitle = 'python rocks'
-filename = 'dc-breweries.csv'
-sourceurl = 'https://www.beeradvocate.com/beer/top-rated/us/dc/'
-githublink = 'https://github.com/austinlasseter/dash-table-example'
+filename = 'USArrests.csv'
+sourceurl = 'https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/topic-pages/persons-arrested'
+githublink = 'https://github.com/grace4568/dash-table-example'
 
 ########### Set up the data
-df = pd.read_csv(filename)
+df = pd.read_csv(USArrests.csv)
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
