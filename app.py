@@ -20,7 +20,7 @@ sourceurl = 'https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/to
 githublink = 'https://github.com/grace4568/dash-table-example'
 
 ########### Set up the data
-df = pd.read_csv(USArrests.csv)
+df = pd.read_csv(filename)
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
