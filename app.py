@@ -12,8 +12,8 @@ import pandas as pd
 
 
 ########### Define your variables ######
-myheading = "USA Arrest"
-mysubheading = "january 2010 - December 2010"
+myheading = "USA Arrest 2010"
+mysubheading = "June 2012 - August 2010"
 tabtitle = 'python rocks'
 filename = 'USArrests.csv'
 sourceurl = 'https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/topic-pages/persons-arrested'
